@@ -231,6 +231,7 @@ table:nth-of-type(2) td {
     </body>
 </html>
 ~~~
+~~~
 views.py
 
 from django.shortcuts import render
