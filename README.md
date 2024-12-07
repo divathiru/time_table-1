@@ -24,7 +24,7 @@ Execute the program using runserver command.
 
 # PROGRAM
 Timetable.html
-
+~~~
 <!DOCTYPE html>
 <html>
     <head>
@@ -230,13 +230,14 @@ table:nth-of-type(2) td {
         </div>
     </body>
 </html>
-
+~~~
 views.py
 
 from django.shortcuts import render
 def htm(request):
     return render(request,"Time_Table.html")
-
+~~~
+~~~
 urls.py
 from django.contrib import admin
 from django.urls import path
@@ -247,6 +248,7 @@ urlpatterns = [
     path('new1/',views.htm),
 
 ]
+~~~
 
 
 # OUTPUT
